@@ -1,4 +1,4 @@
-import Lab2.bmi as BMI
+import ET0735_Lab2.bmi as BMI
 
 '''def test_bmi_under_weight():
     expected_result = -1
@@ -30,7 +30,7 @@ def test_bmi_normal():
     # assert BMI.calculate_bmi(1.73, 57)  == 0
 
 def test_bmi_overweight():
-    expected_result = 0
+    expected_result = 1
     result = BMI.calculate_bmi(1.73, 77)
     assert (result == expected_result)
     # assert BMI.calculate_bmi(1.73, 77) == 1
